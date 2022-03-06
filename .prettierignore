@@ -1,0 +1,8 @@
+.env
+.env.example
+scratch
+typechain
+node_modules
+cache
+artifacts
+contracts/Token.sol
