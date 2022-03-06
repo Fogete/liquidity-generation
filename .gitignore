@@ -1,8 +1,6 @@
 .env
 node_modules
 .DS_Store
-.prettierignore
-.gitattributes
 
 #Hardhat files
 cache
