@@ -21,7 +21,7 @@ contract OwnedDistributor is Distributor {
     }
 
     function setAdmin(address admin_) public virtual {
-        require(msg.sender == admin, "OwnedDistributor: UNAUTHORIZED");
+        require(msg.sender == admin, "OwnedDistributor: NO AUTHORIZED");
         admin = admin_;
         emit SetAdmin(admin_);
     }
