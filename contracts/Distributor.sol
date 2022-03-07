@@ -74,7 +74,7 @@ abstract contract Distributor is IClaimable {
         emit EditRecipient(account, shares, _totalShares);
     }
 
-    // Prevents a contract from calling itself, directly or indirectly
+    // Prevents a contract from calling itself, directly or indirectly.
     bool internal _notEntered = true;
     modifier nonReentrant() {
         require(_notEntered, "Distributor: REENTERED");
