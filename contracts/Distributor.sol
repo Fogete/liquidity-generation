@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import "./libraries/SafeMath.sol";
+import "./libraries/SafeMath.sol"
 import "./interfaces/IToken.sol";
 import "./interfaces/IClaimable.sol";
 
